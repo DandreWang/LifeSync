@@ -1,0 +1,20 @@
+<main-view>
+<view class="wrap">
+    <progress-bar value="{{width}}" text="Step {{step}}/3"></progress-bar>
+    <view class="content">
+        <view class="title">{{title}}</view>
+        <view wx:if="{{step < 2}}" class="input_box">
+          <input type="text" class="input" maxlength="10"/>
+        </view>
+        <view wx:else>
+          <login-selector placeholder="{{holder}}" options="{{range}}" bindchange="handleSelect"></login-selector>
+        </view>
+    </view>
+    <footer-btn-box hideRight="{{step < 2}}" isFixed="1" bgc="#B7EC97">
+        <text slot="center" class="btn_txt" bindtap="handleNext">{{btnTxt}}</text>
+        <footer-btn slot="left" icon="cancel" txt="取消"></footer-btn>
+        <footer-btn slot="right" icon="revoke" txt="上一步" bindtap="handlePrev"></footer-btn>
+    </footer-btn-box>
+</view>
+
+</main-view>

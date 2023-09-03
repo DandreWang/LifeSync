@@ -1,0 +1,14 @@
+<!--miniprogram/components/footerBtn/index.wxml-->
+<view class="footer_btn_box  {{isFixed ? 'fixed' : ''}}">
+  <view wx:if="{{center}}" class="center" style="background-color: {{bgc}};">
+    <slot name="center"></slot>
+  </view>
+  <view wx:if="{{left}}" class="left">
+    <view class="btn_bg" style="background-color: {{bgc}};"></view>
+    <slot name="left"></slot>
+  </view>
+  <view wx:if="{{right}}" class="right">
+    <view class="btn_bg" style="background-color: {{bgc}};"></view>
+    <slot name="right"></slot>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+.progress_bar_box {
+  height: 150rpx;
+  border-radius: 50rpx;
+  background: #F5F5F5;
+  position: relative;
+  margin: 0 40rpx;
+  top: -66rpx;
+  box-shadow: 0px 8rpx 8rpx 0px rgba(0, 0, 0, 0.50);
+  text-align: center;
+
+}
+
+.bar {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100rpx;
+  border-radius: 50rpx;
+  background: #B7EC97;
+}
+
+.txt {
+  line-height: 150rpx;
+  color: #5E5E5E;
+  font-family: Alibaba PuHuiTi 2.0;
+  font-size: 32rpx;
+  font-weight: 900;
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+}

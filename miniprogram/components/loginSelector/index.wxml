@@ -1,0 +1,4 @@
+<view class="drap_wrap">
+    <view wx:for="{{options}}" wx:key="opt" class="option {{val === item.id ? 'act' : ''}}" data-id="{{item.id}}" bindtap="handleChange">{{item.name}}
+    </view>
+</view>

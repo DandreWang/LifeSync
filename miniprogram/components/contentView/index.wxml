@@ -1,0 +1,17 @@
+<!--miniprogram/components/progressBar/index.wxml-->
+<view class="content_view">
+  <view class="top">今日最近同步
+    <image src="../../images/refresh.png" mode="" class="top_icon" />
+  </view>
+  <view class="box">
+    <view class="left">
+      <view class="date">18:35</view>
+      <text class="txt">sb，不到下班时间不会开会是吧！</text>
+    </view>
+    <view class="right">
+      <view wx:if="val" class="water" style="height:'{{val}}%'">
+        <image src="../../images/emoji.png" mode="" class="emoji" />
+      </view>
+    </view>
+  </view>
+</view>

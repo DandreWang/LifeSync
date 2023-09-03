@@ -1,0 +1,58 @@
+.footer_btn_box {
+  min-height: 80rpx;
+  width: 100vw;
+}
+
+.left,
+.right {
+  position: fixed;
+  bottom: 0;
+  width: 184rpx;
+  height: 160rpx;
+  overflow: hidden;
+  padding-top: 26rpx;
+  box-sizing: border-box;
+}
+
+.left {
+  left: 0;
+  padding-right: 26rpx;
+}
+
+.right {
+  right: 0;
+  padding-left: 26rpx;
+}
+
+.btn_bg {
+  position: absolute;
+  top: 0;
+  width: 320rpx;
+  height: 320rpx;
+  border-radius: 160rpx;
+}
+
+.left .btn_bg {
+  left: -136rpx;
+}
+
+.center {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 80rpx;
+  background-color: #D1E7FE;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 32rpx auto 84rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .btn_bg {
+  right: -136rpx;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+}

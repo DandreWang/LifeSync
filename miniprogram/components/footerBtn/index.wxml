@@ -1,0 +1,5 @@
+<!--miniprogram/components/footerBtn/index.wxml-->
+<view class="footer_btn">
+  <image wx:if="icon" class="icon" src="../../images/{{icon}}.png" mode="" />
+  <text class="txt">{{txt}}</text>
+</view>

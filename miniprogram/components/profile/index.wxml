@@ -1,0 +1,10 @@
+<!--miniprogram/components/profile/index.wxml-->
+<view class="profile">
+  <image src="../../images/setting.png" mode="" class="setting" />
+  <text class="nick">{{nick}}</text>
+  <text class="sub">{{typeName}}</text>
+  <image src="../../images/profile.gif" mode="" class="img" />
+  <view class="btns">
+    <text wx:for="{{btns}}" wx:key="_id" class="btn">{{item.txt}}</text>
+  </view>
+</view>

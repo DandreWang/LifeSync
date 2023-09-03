@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "LifeSync",
+  "usingComponents": {
+    "main-view": "/components/mainView/index",
+    "progress-bar": "/components/progressBar/index",
+    "content-view": "/components/contentView/index",
+    "profile": "/components/profile/index",
+    "footerBtn": "/components/footerBtn/index",
+    "footerBtnBox": "/components/footerBtnBox/index"
+  }
+}

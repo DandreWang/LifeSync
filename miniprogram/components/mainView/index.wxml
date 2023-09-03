@@ -1,0 +1,7 @@
+<!--miniprogram/components/mainView/index.wxml-->
+<view class="wrap">
+  <image class="banner" src="../../images/banner.png"></image>
+  <view class="content">
+    <slot></slot>
+  </view>
+</view>

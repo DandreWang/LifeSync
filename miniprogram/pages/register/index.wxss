@@ -1,0 +1,38 @@
+.content {
+  text-align: center;
+}
+
+.top_txt {
+  color: #BFBFBF;
+  text-align: center;
+  font-family: Alibaba PuHuiTi 2.0;
+  font-size: 40rpx;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  font-family: Alibaba PuHuiTi 2.0;
+  font-size: 24rpx;
+  font-weight: 900;
+  margin-top: 60rpx;
+}
+
+.event_box {
+  width: 512rpx;
+  height: 74rpx;
+  flex-shrink: 0;
+  margin: 16rpx auto 0;
+  border-radius: 20rpx;
+  background: #FFF;
+  box-shadow: 0px 8rpx 8rpx 0px rgba(0, 0, 0, 0.50);
+  color: #B9B8B8;
+  font-family: Alibaba PuHuiTi 2.0;
+  font-size: 24rpx;
+  line-height: 74rpx;
+  font-weight: 900;
+  padding-left: 18rpx;
+  text-align: left;
+}

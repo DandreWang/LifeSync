@@ -1,0 +1,23 @@
+.footer_btn {
+  height: 100%;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.txt {
+  color: #000;
+  text-align: center;
+  font-family: Alibaba PuHuiTi 2.0;
+  font-size: 16rpx;
+  font-weight: 500;
+  margin-top: 12rpx;
+}

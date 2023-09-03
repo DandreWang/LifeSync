@@ -1,0 +1,13 @@
+<main-view>
+    <progress-bar value="20"></progress-bar>
+    <content-view value="60"></content-view>
+    <profile value="20"></profile>
+    
+    <footerBtnBox>
+    <view slot="center">
+      <image src="../../images/add.png" mode="" class="add_icon" />
+    </view>
+    <footerBtn slot="left" icon="light" txt="参与"></footerBtn>
+    <footerBtn slot="right" icon="history" txt="历史"> </footerBtn>
+  </footerBtnBox>
+</main-view>

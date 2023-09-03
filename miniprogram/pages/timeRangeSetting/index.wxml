@@ -1,0 +1,12 @@
+<main-view>
+    <progress-bar value="20"></progress-bar>
+    <view class="content">
+      <text class="top_txt">尝试用进度条的视角\n来看待生活中的事件吧</text>
+      <view class="title">进度条事件</view>
+      <view class="event_box">eg：这该死的上班，上学（不是</view>
+    </view>
+    <footerBtnBox>
+    <footerBtn slot="left" icon="light" txt="参与"></footerBtn>
+    <footerBtn slot="right" icon="history" txt="历史"> </footerBtn>
+  </footerBtnBox>
+</main-view>

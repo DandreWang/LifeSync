@@ -1,0 +1,4 @@
+.add_icon {
+  width: 120rpx;
+  height: 120rpx;
+}

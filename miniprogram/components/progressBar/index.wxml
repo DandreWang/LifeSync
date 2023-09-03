@@ -1,0 +1,5 @@
+<!--miniprogram/components/progressBar/index.wxml-->
+<view class="progress_bar_box">
+ <view class="bar" style="width:{{val}}"></view>
+ <text class="txt">{{txt}}</text>
+</view>

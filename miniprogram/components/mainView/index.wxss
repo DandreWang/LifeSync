@@ -1,0 +1,21 @@
+.wrap {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+}
+
+.content {
+    margin-top: -100rpx;
+    border-radius: 50rpx;
+    background: #F5F5F5;
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}

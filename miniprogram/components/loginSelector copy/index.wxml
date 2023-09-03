@@ -1,0 +1,12 @@
+<view class="wrap" bind>
+    <view class="inner" bindtap="handleToggleShow">
+        <text class="text {{value === undefined ? 'holder': ''}}">{{text || placeholder}}</text>
+        <view class="icon"></view>
+    </view>
+    <view class="drap_wrap">
+        <view class="drap {{show ? 'show' : ''}}" style="height: {{height}}rpx;top:{{show? 0 :( -1 * height - 50)}}rpx">
+            <view wx:for="{{options}}" wx:key="opt" class="option" data-id="{{item.id}}" bindtap="handleChange">{{item.name}}
+            </view>
+        </view>
+    </view>
+</view>

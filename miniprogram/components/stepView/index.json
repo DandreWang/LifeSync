@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "main-view": "/components/mainView/index",
+    "progress-bar": "/components/progressBar/index",
+    "footer-btn": "/components/footerBtn/index",
+    "footer-btn-box": "/components/footerBtnBox/index",
+    "login-selector": "/components/loginSelector/index"
+  },
+  "pureDataPattern": "/^_/",
+  "component": true
+}

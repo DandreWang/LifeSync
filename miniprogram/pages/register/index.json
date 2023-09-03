@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "LifeSync",
+  "usingComponents": {
+    "step-view": "/components/stepView/index"
+  }
+}
